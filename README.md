@@ -9,8 +9,8 @@
 
 
 
-| [<img src="Documentation/ranking.gif" alt="Imagem projetco JavaScript" />](https://github.com/GenilsonDC/TypeScriptScript/tree/main/Ranking) |
-| :----------------------------------------------------------: |
+| [<img src="Documentation/ranking.gif" alt="Imagem projetco JavaScript" />](https://github.com/GenilsonDC/TypeScript/tree/main/Ranking) | [<img src="Documentation/reorder.gif" alt="Imagem projetco JavaScript" />](https://github.com/GenilsonDC/TypeScript/tree/main/Reorder) |
+| :----------------------------------------------------------: | ------------------------------------------------------------ |
 
    
 
