@@ -2,6 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "SimulacaoBancaria",
+      "request": "launch",
+      "mainClass": "SimulacaoBancaria",
+      "projectName": "TypeScript_229b8bfa"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
