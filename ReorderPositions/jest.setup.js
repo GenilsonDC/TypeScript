@@ -1,0 +1,31 @@
+const { JSDOM } = require('jsdom')
+
+const html = `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Reorder Positions</title>
+</head>
+<body>
+    <div class="displayed">
+        <div class="container">
+            <ol>
+                <li><button class="upButton" type="button">up!</button>Swift (iOS)<button class="downButton" type="button">Down!</button></li>
+                <li><button class="upButton" type="button">up!</button>JavaScript (React Native)<button class="downButton" type="button">Down!</button></li>
+                <li><button class="upButton" type="button">up!</button>Dart (Flutter)<button class="downButton" type="button">Down!</button></li>
+                <li><button class="upButton" type="button">up!</button>Kotlin (Android)<button class="downButton" type="button">Down!</button></li>
+                <li><button class="upButton" type="button">up!</button>Java (Android)<button class="downButton" type="button">Down!</button></li>
+            </ol>
+        </div>
+        <span class="developer">Genilson do Carmo</span>
+    </div>
+    <script src="dist/main.js"></script>
+</body>
+</html>
+`
+
+const dom = new JSDOM(html, { runScripts: 'dangerously' })
+global.document = dom.window.document
