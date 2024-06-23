@@ -1,6 +1,6 @@
 import * as readlineSync from 'readline-sync';
 
-function simulacaoBancaria(): void {
+export function simulacaoBancaria(): void {
   let saldo: number = 0;
   let continuar: boolean = true;
 
